@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="img/brasil-bandeira.png">
+
+    <title>Historia do Brasil</title>
+</head>
+<body>
+   <header>
+    <nav>
+      <a href="index.html" class="logo">Brasil Informa</a>
+      <div id="box1">
+        <div id="box2">
+          <a href="index.html">Início</a>
+          <a href="pags/hist.html">História</a>
+          <a href="pags/pontos.html">Turismo</a>
+        </div>
+      </div>
+    </nav>
+    </header>
+
+    <div class="text-index">
+      <h1>Brasil</h1>
+      <h2>Linha do Tempo da História do Brasil</h2>
+    </div>
+    <div class="swiper">
+    <div class="swiper-wrapper"> 
+      <div class="swiper-slide"><img src="img/1500.jpg" alt="Imagem 1"></div>
+      <div class="swiper-slide"><img src="img/1532.jpg" alt="Imagem 2" ></div>
+      <div class="swiper-slide"><img src="img/1534.jpg" alt="Imagem 3" ></div>
+      <div class="swiper-slide"><img src="img/1549.jpg" alt="Imagem 3" ></div>
+      <div class="swiper-slide"><img src="img/1549-2.jpg" alt="Imagem 3" ></div>
+      <div class="swiper-slide"><img src="img/1554.jpg" alt="Imagem 3"></div>
+      <div class="swiper-slide"><img src="img/GG/1565.jpg" alt="Imagem 3" ></div>
+      <div class="swiper-slide"><img src="img/1750.jpg" alt="Imagem 3" ></div>
+      <div class="swiper-slide"><img src="img/1763.jpg" alt="Imagem 3" ></div>
+      <div class="swiper-slide"><img src="img/1808.jpg" alt="Imagem 3" ></div>
+      <div class="swiper-slide"><img src="img/1815.jpg" alt="Imagem 3" ></div>
+      <div class="swiper-slide"><img src="img/1822.jpg" alt="Imagem 3" ></div>
+      <div class="swiper-slide"><img src="img/1822-2.jpg" alt="Imagem 3" ></div>
+      <div class="swiper-slide"><img src="img/1888.jpg" alt="Imagem 3"  style="object-fit: contain;"></div>
+      <div class="swiper-slide"><img src="img/1889.jpg" alt="Imagem 3" ></div>
+      <div class="swiper-slide"><img src="img/1964.jpg" alt="Imagem 3" style="object-fit: contain;"></div>
+      <div class="swiper-slide"><img src="img/1988.jpg" alt="Imagem 3" ></div>
+    </div>
+    
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  
+    <div class="swiper-pagination"></div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+    
+    const swiper = new Swiper('.swiper', {
+ loop: true,
+ 
+ navigation: {
+  nextEl: '.swiper-button-next',
+  prevEl: '.swiper-button-prev',
+ },
+ pagination: {
+  el: '.swiper-pagination',
+  clickable: true,
+ },
+ });
+</script>
+
+<footer>
+   2025 Brasil Informa  
+</footer>
+
+</body>
+</html>
